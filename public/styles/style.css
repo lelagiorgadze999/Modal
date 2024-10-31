@@ -1,0 +1,111 @@
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* header page */
+
+#header {
+  background-color: chocolate;
+  padding: 20px 0;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.logo {
+  font-size: 45px;
+  font-weight: 700;
+  color: bisque;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  width: 400px;
+}
+.nav-links li a {
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
+/* form section style */
+#form {
+  padding: 150px 0;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myform {
+  width: 350px;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.label-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.btn {
+  background-color: chocolate;
+  border: none;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.terms-btn {
+  text-align: center;
+  cursor: pointer;
+}
+.s-popup {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.close {
+  width: 200px;
+}
+.term {
+  width: 500px;
+  padding: 30px 20px;
+  background-color: aliceblue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 66, 68, 0.6);
+  z-index: 5;
+  backdrop-filter: blur(8px);
+}

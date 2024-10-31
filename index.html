@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container flex">
+        <h1><a href="#" class="logo">EarthGuardians</a></h1>
+        <nav class="nav">
+          <ul class="nav-links flex">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="./assets/pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="form">
+      <form action="?" method="get" class="myform">
+        <div class="label-input">
+          <label for="email">email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="label-input">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <button type="submit" class="btn">sign in</button>
+        <span class="terms-btn">Terms & conditions</span>
+        <section class="s-popup hidden">
+          <div class="term">
+            <h3>Terms and conditions</h3>
+            <p>
+              Before you use our website or services, please carefully read the
+              following Terms and Conditions. By accessing or using our
+              platform, you agree to comply with and be bound by these terms. If
+              you do not agree with any part of these terms, please do not use
+              our services. Your privacy is important to us. Please review our
+              Privacy Policy to understand how we collect, use, and disclose
+              information about you. By using our services, you consent to our
+              privacy practices.
+            </p>
+            <button class="close btn">I agree</button>
+          </div>
+        </section>
+        <div class="overlay hidden"></div>
+      </form>
+    </section>
+    <script src="./public/js/script.js"></script>
+  </body>
+</html>
